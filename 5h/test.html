@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>You Tobe</title>
+    <link rel="stylesheet" href="demo.css">
+
+</head>
+<body>
+<center><div style="margin-top: 250px">
+    <label>
+        <img class="anh" src="https://img.favpng.com/23/9/2/youtube-logo-wordmark-icon-png-favpng-y5j1MNbBNMX8rJ7bwyyPikp9M.jpg"
+             alt="" width="150" height="50">
+    </label>
+    <input type="text" name="keyword" class="long-input" placeholder="Search">
+    <input type="button" name="btn-add" title="Search" value="Search">
+</div></center>
+<div class="col-2"></div>
+<article class="col-10">
+    <div class="title">
+        <div id="item-list"></div>
+    </div>
+</article>
+<div id="myModal" class="modal">
+    <span class="close" id="myClose">&times;</span>
+    <div class="Animation">
+        <iframe id="video-frame" width="560" height="315"
+                src="" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+<script src="vc.js">
+</script>
+</body>
+</html>
